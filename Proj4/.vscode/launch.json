@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "project3"
+    },
+    {
+      "type": "java",
+      "name": "Debug Main",
+      "request": "launch",
+      "mainClass": "project2.Main",
+      "projectName": "project4",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "src/Correct/1.code",
+        "src/Correct/1.data"
+      ]
+    }
+  ]
+}
